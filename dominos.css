@@ -1,0 +1,374 @@
+body{padding: 0px;margin:0px;font-family: sans-serif;}
+			
+/*-------------------------------top bar--------------------------------*/
+#topbar
+{
+	padding-top: 10px;
+	height: 48px;
+	padding-bottom: 10px;
+}
+h2{display: inline;}
+
+.topbutton
+{
+
+}
+button
+{
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	margin-left: 6px;
+	margin-right: 6px;
+	color: blue;
+}
+#logo
+{
+
+	margin-left :60px;
+	margin-right: 170px;
+}
+
+#downloadapp
+{
+	width: 130px;
+	margin-left: 100px;
+	background-color: red;
+	border:solid red 1px;
+	padding: 12px;
+	color: white;
+	border-radius: 2px;
+}
+
+/*-----------------------------second-----------------------------*/
+#secondtop
+{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	height: 400px;
+	width: 100%;
+	background-color: rgba(0,0,205,0.8);
+
+}
+#second-top-section
+{
+	padding-top: 135px;
+
+
+}
+#second-image-section
+{
+
+}
+#deliveryimage
+{
+
+	width: 805px;
+	
+	height: 396px;	
+}
+#secondheader
+{
+	margin-left:80px;
+	margin-top: 100px;
+	font-size: 28px;
+	color:white;
+}
+#second-sub-header
+{
+	margin-left:80px;
+	font-size: 16px;
+
+	position: relative;
+	bottom: 15px;
+	width: 340px;
+}
+#orderbutton
+{
+	color: white;
+	font-size: 20px;
+	background-color: rgba(34,139,34);
+	height:60px;
+	line-height: 30px;
+	width: 350px;
+	border-radius: 2px;
+	padding: 10px;
+	position: relative;
+	bottom: 25px;
+	left: 70px;
+}
+
+
+
+
+
+/*----------Main--------------------------*/
+#main{}
+.main-section-headers
+{
+	width: 400px;
+	position: relative;
+	left:90px;
+	font-size: 20px;
+}
+#coupons{
+	display: grid;
+	grid-template-columns: 5% 90% 5%;
+	width:100%;
+	height: 400px;
+	
+}
+
+#main-templates
+{
+	display: grid;	
+	grid-template-columns: 45% 45% 45%  45% 45%;
+	grid-column-gap:1em; 
+	overflow: hidden;
+	height: 400px;
+}
+.moving-templates1
+{
+position: relative;
+margin-left: 30px;
+width: 550px;
+height: 300px;
+border:solid black 1px;
+animation-name: slideit	;
+animation-delay: 0s;
+animation-timing-function: linear; 
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+cursor: pointer;
+}
+.moving-templates2
+{
+position: relative;
+animation-name: slideit	;
+animation-delay: 0s;
+animation-timing-function: linear; 
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+cursor: pointer;
+margin-left: 30px;
+width: 550px;
+height: 300px;
+border:solid black 1px;
+
+
+}
+.moving-templates3
+{
+cursor: pointer;
+animation-name: slideit	;
+animation-delay: 0s;
+animation-timing-function: linear; 
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+margin-left: 30px;
+width: 550px;
+height: 300px;
+border:solid black 1px;
+position: relative;
+right: -600px;
+}
+.moving-templates4
+{
+cursor: pointer;
+animation-name: slideit	;
+animation-delay: 0s;
+animation-timing-function: linear; 
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+margin-left: 30px;
+width: 550px;
+height: 300px;
+border:solid black 1px;
+position: relative;
+right: -1230px;
+
+}
+.moving-templates5
+{
+cursor: pointer;
+animation-name: slideit	;
+animation-delay: 0s;
+animation-timing-function: linear; 
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
+margin-left: 30px;
+width: 550px;
+height: 300px;
+position: relative;
+right: -1900px;
+border:solid black 1px;
+}
+#left-select,#right-select{
+	border:solid black 1px;
+	border-radius: 20px;
+	padding: 5px;
+	position: relative;top: 150px;
+	font-size: 20px;
+}
+.left-select,.right-select
+{
+	height: 300px;
+	
+}
+.left-select
+{
+	position: relative;
+display: hide;
+}
+/*--------------------------------main first (a) animations-------------*/
+@keyframes slideit
+{
+	0%{left: 0px;}
+	30%{left: 0px;}
+	35%{left: -700px;}
+	65%{left: -700px;}
+	70%{left: -1400px;}
+	83%{left: -1400px;}
+	95%{left: -1900px;}
+	100%{left:-1900px;}
+}
+/*-------main first (b) part-----------------*/
+
+#explore
+{	
+
+	padding-left: 90px;
+	display: grid;
+	grid-template-columns: 23% 23% 23% 23%;
+	padding-bottom: 50px;
+}
+.explore-cards
+{
+	cursor: pointer;
+	display: grid;
+	grid-template-rows: 40% 10% 30% 20%;
+	height: 300px;
+	width: 240px;
+	border:solid 1px black;
+}
+	
+.explore-cards-icon4{padding-left: 100px;}
+.explore-cards-icon
+{
+	padding-left: 82px;
+}
+.explore-cards-title
+{
+	padding-left: 75px;
+}
+.explore-cards-description
+{
+	margin-left: 30px;
+	width: 180px;
+	font-size: 13px;
+	text-align:center;
+
+}
+.explore-cards-bottom-text1
+{
+	padding-left: 50px;
+	font-size: 14px;
+	line-height: 40px;
+	color:red;
+	height: 50px;	
+	margin-top: 10px;
+	border-top: solid black 1px;
+}
+.explore-cards-bottom-text2
+{
+	padding-left: 50px;
+	font-size: 14px;
+	line-height: 40px;
+	color:red;
+	height: 50px;	
+	margin-top: 10px;
+	border-top: solid black 1px;
+}
+.explore-cards-bottom-text3
+{
+	padding-left: 78px;
+	font-size: 14px;
+	line-height: 40px;
+	color:red;
+	height: 50px;	
+	margin-top: 10px;
+	border-top: solid black 1px;
+}
+.explore-cards-bottom-text4
+{
+	padding-left: 70px;
+	font-size: 14px;
+	line-height: 40px;
+	color:red;
+	height: 50px;	
+	margin-top: 10px;
+	border-top: solid black 1px;
+}
+
+/*---------main section second part------------*/
+#main-section-second-part{
+	border-top: solid black 1px;
+
+}
+
+#second-left-section
+{
+	border-radius: 20px;
+	position: relative;
+	padding-left: 180px;
+
+
+
+}
+.second-right-section-header
+{
+	font-size: 24px;
+}
+
+
+
+/*-------------------------------------Queries-----------------------------*/
+#queries
+{
+	border:solid black 1px;
+
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+
+}
+a{text-decoration-line: none;}
+.section{border:solid black 1px;padding-left: 30px;padding-top: 20px;background-color: black;}
+li{color:white;list-style: none;}
+.socialmedia
+{
+color: white;
+margin-right: 15px;
+}
+/*-------------------------------------bottom----------------*/
+#bottom
+{
+	padding: 0px;
+	background-color: black;
+	border-top:solid white 1px;
+	height: 100px;
+}
+#bottomtext
+{
+	margin: 40px;
+	font-size: 14px;
+	position: relative;
+	left: 400px;
+	width: 450px;
+	color: white;
+}
